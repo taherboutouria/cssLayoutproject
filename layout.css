@@ -1,0 +1,90 @@
+section .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.lead__logo{
+    display: flex;
+    margin: 0 auto;
+}
+section .container header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+section .container nav
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+section .container nav a {
+    margin-left: 50px;
+    color: #00b39b;
+    font-size: 22px;
+    font-family: arial,sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.3;
+    }
+
+h1{
+    color: #00b39b;
+    text-align: center;
+    }
+ 
+.container1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 300px 0 300px;
+    }
+
+.un{
+    width: 350px;
+    height: 350px;
+    background:#00b39b
+    border-box 10px;
+}
+.deux{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #3d83df;
+}
+.trois{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #1b2734;
+}
+.tab{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    
+    color: azure;
+    margin: 0 170px;
+
+
+}
+.colortitre{
+    color: azure;
+}
+
+#uniq{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.hh{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+}
+.gg{
+    position: relative;
+    display: block;
+}
+
+
+    
+
